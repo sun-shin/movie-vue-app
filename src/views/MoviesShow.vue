@@ -8,6 +8,7 @@
     <p>English?: {{ movie.english }}</p><br>
     <p>Plot: {{ movie.plot }}</p><br>
   
+  
   </div>
 </template>
 

@@ -1,5 +1,16 @@
 <template>
-  <div class="home">
+  <div class="bgded" style="background-image:url('images/demo/backgrounds/movies-background.jpeg');">
+    <div id="pageintro" class="hoc clear"> 
+      
+      <article>
+        <h3 class="heading">Movie-App</h3>
+        <p>Come Look At All Of Our Movies!</p>
+        <footer><router-link to="/movies">Movies Index</router-link></footer>
+      </article>
+      
+    </div>
+  </div>
+  <!-- <div class="home">
     <h1>{{ message }}</h1>
     Title: <input type="text" v-model="newMovietitle"><br>
     Year Created: <input type="text" v-model="newMovieyear"><br>
@@ -31,7 +42,7 @@
       </form>
     </dialog>
 
-  </div>
+  </div> -->
 </template>
 
 <style>

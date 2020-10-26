@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
-import Movies from '../views/Movies.vue';
+import MoviesIndex from '../views/MoviesIndex.vue';
 import MoviesNew from '../views/MoviesNew.vue';
 import MoviesShow from '../views/MoviesShow.vue';
 import MoviesEdit from '../views/MoviesEdit.vue';
@@ -34,8 +34,8 @@ const routes = [
   },
   {
     path: '/movies',
-    name: 'Movies',
-    component: Movies
+    name: 'movies-index',
+    component: MoviesIndex
   },
   {
     path: '/movies/new',
